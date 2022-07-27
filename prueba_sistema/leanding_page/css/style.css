@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #fffb00, #0026ff, #f50000);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color: darkgrey;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 85vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../media/Logo.PNG") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#hero h1{
+    color: white;
+}
+#quienes_somos{
+
+}
+#quienes_somos .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+#conductores{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#conductores .container{
+    padding: 100px 0px;
+}
+#conductores h2{
+    margin-top: 0;
+}
+#conductores p{
+    display: none;
+}
+#conductores .carta{
+    background-image: url("../media/Logo.PNG");
+}
+.carta :first-child{
+
+}
+.carta:nth-child(2){
+
+}
+.carta:nth-child(3){
+    
+}
